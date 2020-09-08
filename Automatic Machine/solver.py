@@ -7,7 +7,6 @@ max_idx = 0
 CHAR_SET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.!@#$%^&*()-_=+`~ {}'
 
 
-
 class Data:
 	def __init__(self, idx):
 		self.idx = idx
