@@ -20,6 +20,9 @@ def main():
 			words = list(filter(lambda w: len(set(w).intersection(word)) == hint, words))
 		elif hint.startswith('csa'):
 			print('The flag is:', hint)
+			r.close()
+			return
+	r.close()
 	print('Could not get the flag')
 
 
