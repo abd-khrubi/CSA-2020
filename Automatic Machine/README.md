@@ -18,7 +18,6 @@ We need to reverse engineer that script in order to find the correct password.
 </p>
 
 <details>
-<summary>Spoiler: Solution</summary>
 
 To reverse the script, first of all I copied the javascript code into python, and then simply ran the script,
 modified the script to take input a special class that I made to mimic a list, and in each iteration, that list 
