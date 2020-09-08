@@ -28,3 +28,24 @@ we get the flag:    <br>
 <h3 align="center">`CSA{w0w_th4t_wa$_re@lly_s1mpLe_wasn7_1t}`</h3>
 Script reverse is in `solver.py`
 </details>
+
+<details>
+  <summary>Spoiler warning</summary>
+  <p>
+  To reverse the script, first of all I copied the javascript code into python, and then simply ran the script,
+modified the script to take input a special class that I made to mimic a list, and in each iteration, that list 
+initializes in each index (only when accessed by the script) an array with all possible characters, and while 
+iterating, eliminating any character that cause the password check to fail.
+In the end, the list would have 41 cells, and each cell contains exactly one possibility, printing those characters,
+we get the flag:
+  </p>
+  
+  <p>
+  
+`CSA{w0w_th4t_wa$_re@lly_s1mpLe_wasn7_1t}`
+
+  </p>
+  
+Script reverse is in `solver.py`
+
+</details>
