@@ -10,8 +10,7 @@ For example:
 submit.py Lovelace telescope Germain abacus Franklin laptop Curie pencil Noether scales
 IMPORTANT: Give the program a minute or two to produce the flag for you.
 
-Good Luck!
-</p>
+Good Luck!</p>
 ___
 
 
