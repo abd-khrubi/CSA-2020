@@ -85,4 +85,12 @@ order to receive the flag.
   `CSA{p1k4p1k4}`
   
   <br></p>
+  
+  <p>
+  
+  How to use:<br>
+  
+  `python3 solver.py <filename=File.jpg>`
+  
+  </p>
 </details>
