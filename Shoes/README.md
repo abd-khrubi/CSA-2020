@@ -90,7 +90,7 @@ order to receive the flag.
   
   How to use:<br>
   
-  `python3 solver.py <filename=File.jpg>`
+  `python3 solver.py <filename=Flag.jpg>`
   
   </p>
 </details>
