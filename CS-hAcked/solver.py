@@ -53,7 +53,6 @@ def main():
         p = (i + 1) / len(combinations)
         print(f'\r[{"=" * int(25 * p)}{" " * int(25 * (1 - p))}] - {p * 100: 0.2f}%', end='', flush=True)
         comb = combinations[i]
-        # print(f'Trying combination: "{" ".join(comb)}" => ', end='', flush=True)
         response = try_combination(comb)
         if not response.isascii():
             print('Error decoding response')
@@ -61,6 +60,7 @@ def main():
             print('\nFound the flag!')
             print(response.decode('ascii'))
             print(f'The secret combination is: {" ".join(comb)}')
+            break
 
 
 if __name__ == '__main__':
